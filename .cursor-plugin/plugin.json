@@ -1,0 +1,25 @@
+{
+  "name": "flowchart-studio",
+  "displayName": "流程图工坊",
+  "description": "通过 flowchart-studio MCP 建改删流程图与分组、评论、节点关联、主题与回滚；配套操作技能。",
+  "version": "1.0.0",
+  "author": {
+    "name": "peckbyte",
+    "url": "https://github.com/peckbyte"
+  },
+  "homepage": "https://flowchart.e3e4.club",
+  "repository": "https://github.com/peckbyte/flowchart-studio-skills",
+  "license": "MIT",
+  "keywords": ["flowchart", "diagram", "mcp", "mermaid", "studio"],
+  "variables": {
+    "type": "object",
+    "properties": {
+      "FLOWCHART_API_TOKEN": {
+        "type": "string",
+        "title": "Flowchart Studio API token",
+        "description": "网站设置里生成的 API 钥匙，形如 fst_…。只写入插件配置，不要提交到仓库。"
+      }
+    },
+    "required": ["FLOWCHART_API_TOKEN"]
+  }
+}

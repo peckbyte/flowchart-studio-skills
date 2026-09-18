@@ -1,0 +1,25 @@
+{
+  "name": "flowchart-studio",
+  "version": "1.0.0",
+  "description": "Flowchart Studio MCP connector and operation skills.",
+  "author": { "name": "peckbyte" },
+  "homepage": "https://flowchart.e3e4.club",
+  "keywords": ["flowchart", "mcp", "diagram"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "流程图工坊",
+    "shortDescription": "用 MCP 操作 flowchart-studio 流程图。",
+    "longDescription": "打包 flowchart-studio 的 Streamable HTTP MCP 与操作技能：建改删图与分组、评论、节点关联、主题与历史回滚。",
+    "developerName": "peckbyte",
+    "category": "Productivity",
+    "capabilities": ["MCP", "Read", "Write", "Automation"],
+    "websiteURL": "https://flowchart.e3e4.club/",
+    "brandColor": "#2563EB",
+    "defaultPrompt": [
+      "列出流程图分组",
+      "新建一张流程图",
+      "按评论改图"
+    ]
+  }
+}

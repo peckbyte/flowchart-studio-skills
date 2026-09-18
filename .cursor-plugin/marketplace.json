@@ -1,0 +1,12 @@
+{
+  "name": "flowchart-studio-skills",
+  "owner": {
+    "name": "peckbyte"
+  },
+  "plugins": [
+    {
+      "name": "flowchart-studio",
+      "source": "./"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "flowchart-studio": {
+      "url": "https://flowchart.e3e4.club/mcp",
+      "headers": {
+        "Authorization": "Bearer ${FLOWCHART_API_TOKEN}"
+      }
+    }
+  }
+}
