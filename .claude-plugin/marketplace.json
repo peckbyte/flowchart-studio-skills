@@ -1,0 +1,14 @@
+{
+  "name": "flowchart-studio-skills",
+  "description": "Flowchart Studio agent skills and MCP connector for diagram workflows.",
+  "owner": {
+    "name": "peckbyte"
+  },
+  "plugins": [
+    {
+      "name": "flowchart-studio",
+      "source": "./",
+      "description": "Create and edit Flowchart Studio diagrams via MCP — groups, charts, comments, node links, themes, revisions."
+    }
+  ]
+}

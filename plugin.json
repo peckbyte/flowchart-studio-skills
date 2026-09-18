@@ -1,6 +1,7 @@
 {
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "flowchart-studio",
-  "description": "Create and edit Flowchart Studio diagrams end-to-end via the hosted MCP server and operation skills.",
+  "description": "Flowchart Studio — create and edit flowcharts via hosted MCP, with operation skills for agents.",
   "version": "1.1.0",
   "author": {
     "name": "peckbyte",
@@ -9,10 +10,5 @@
   "homepage": "https://flowchart.e3e4.club",
   "repository": "https://github.com/peckbyte/flowchart-studio-skills",
   "license": "MIT",
-  "mcpServers": {
-    "flowchart-studio": {
-      "type": "http",
-      "url": "https://flowchart.e3e4.club/mcp"
-    }
-  }
+  "keywords": ["flowchart", "diagram", "mcp", "mermaid", "studio"]
 }

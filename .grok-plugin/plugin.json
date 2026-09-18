@@ -1,7 +1,7 @@
 {
   "name": "flowchart-studio",
-  "version": "1.0.0",
-  "description": "流程图工坊技能与 MCP——建改删图/分组、评论、节点关联、主题与回滚。",
+  "version": "1.1.0",
+  "description": "流程图工坊：通过托管 MCP 建改删流程图/分组、评论、节点关联、主题与回滚，并附带操作技能。",
   "author": {
     "name": "peckbyte",
     "url": "https://github.com/peckbyte"
@@ -9,5 +9,7 @@
   "homepage": "https://flowchart.e3e4.club",
   "repository": "https://github.com/peckbyte/flowchart-studio-skills",
   "license": "MIT",
-  "keywords": ["flowchart", "diagram", "mcp", "mermaid", "studio"]
+  "keywords": ["flowchart", "diagram", "mcp", "mermaid", "studio"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
 }
